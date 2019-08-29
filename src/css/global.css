@@ -3,3 +3,8 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+/* .bborder {
+    @apply border-black border-solid border;
+} */

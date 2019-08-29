@@ -27,12 +27,12 @@ const Layout = ({ children }) => {
   return (
     <>
       <div className="container mx-auto">
-        {/* <header>{header}</header> */}
-        {/* <main>{children}</main> */}
+        <Header></Header>
+        <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Apples</a>
         </footer>
       </div>
     </>
